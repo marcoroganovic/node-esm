@@ -1,0 +1,16 @@
+{
+  "name": "node-esm",
+  "version": "0.0.1",
+  "description": "Minimal ES2015 module starter-kit",
+  "main": "index.js",
+  "repository": "https://github.com/marcoroganovic/node-esm.git",
+  "author": "Marco Roganovic <marcoroganovic@gmail.com>",
+  "license": "MIT",
+  "@std/esm": "cjs",
+  "scripts": {
+    "start": "node -r @std/esm index.js"
+  },
+  "dependencies": {
+    "@std/esm": "^0.19.7"
+  }
+}
